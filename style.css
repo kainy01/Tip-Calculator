@@ -1,0 +1,196 @@
+/* CSS 1:30 Hour */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+body {
+  font-family: "Space Mono", monospace;
+  background: #c5e4e7;
+}
+p {
+  color: #5e7a7d;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+h1 {
+  color: hsl(172, 67%, 45%);
+}
+tag {
+  color: #26c0ab;
+  color: #00494d;
+  color: #5e7a7d;
+  color: #7f9c9f;
+  color: #c5e4e7;
+  color: #f4fafa;
+  color: #ffffff;
+}
+.container1 {
+  width: 100%;
+  margin: 100px auto 0 auto;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 2rem 1.5rem;
+}
+.input-group {
+  margin-bottom: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tip1 tip2"
+    "tip3 tip4"
+    "tip5 tip6";
+}
+
+.dollar {
+  background: url(./images/us-dollar.png) no-repeat scroll;
+  background-size: 20px;
+  background-position: 10px;
+}
+.ppl {
+  background: url(./images/icon-person.svg) no-repeat scroll;
+  background-size: 15px;
+  background-position: 10px;
+}
+
+.input-field {
+  background-color: #f3f8fb;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  color: #00494d;
+  padding: 10px 20px;
+  height: 45px;
+}
+
+input:focus {
+  outline: 3px solid #26c0ab;
+}
+.tip {
+  background-color: #00494d;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9fe8e1;
+  color: #00494d;
+}
+button:focus {
+  color: #00494d;
+  background-color: #26c0ab;
+}
+
+
+.tip1 {
+  grid-area: tip1;
+}
+
+.tip2 {
+  grid-area: tip2;
+}
+
+.tip3 {
+  grid-area: tip3;
+}
+
+.tip4 {
+  grid-area: tip4;
+}
+
+.tip5 {
+  grid-area: tip5;
+}
+
+.tip6 {
+  grid-area: tip6;
+  padding: 10px 0px !important;
+}
+.container .input-field::placeholder,
+.tip6 {
+  text-align: center;
+  direction: ltr;
+  background-color: #f3f8fb;
+}
+
+.total {
+  background: #00494d;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.group p {
+  color: #c5e4e7;
+  padding: 0 !important;
+}
+.group span {
+  color: #5e7a7d;
+  font-size: 13px;
+}
+.res {
+  background-color: #26c0ab;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #00494d;
+  height: 45px;
+  cursor: pointer;
+}
+
+.to{
+  display: flex;
+  justify-content: space-between;
+}
+.hidd{
+  color: orange;
+
+}
